@@ -1,0 +1,10 @@
+Flask==2.2.2
+langchain==0.1.17
+langchain-community==0.0.38
+langchain-core==0.1.52
+langchain-openai==0.1.5
+langchain-text-splitters==0.0.1
+langsmith==0.1.52
+sentence-transformers==2.7.0
+tokenizers==0.19.1
+transformers==4.40.2
