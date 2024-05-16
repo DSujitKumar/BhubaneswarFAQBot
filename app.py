@@ -37,7 +37,6 @@ embeddeddoc, chain = runInitialData()
 def hello():
     return "Hi There This is your BOT !"
 
-
 @app.route("/getAnswer", methods=['POST', 'GET'])
 def getAnswer():
     Query =  request.args.get('Question')
