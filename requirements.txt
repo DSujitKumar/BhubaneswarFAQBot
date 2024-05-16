@@ -8,3 +8,4 @@ langsmith==0.1.52
 sentence-transformers==2.7.0
 tokenizers==0.19.1
 transformers==4.40.2
+gunicorn
