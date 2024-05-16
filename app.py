@@ -12,7 +12,7 @@ from langchain import HuggingFaceHub
 
 app = Flask(__name__)
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-os.environ['PORT'] = '8000'
+os.environ['PORT'] = '8500'
 
 def Wrap_Text_preserve_newlines(text, width=200):
     lines = text.split('\n')
@@ -46,4 +46,4 @@ def getAnswer():
     return chain.run(input_documents=dc, question=Query)
 
 if __name__=="__main__":
-    app.run(debug=True,host="0.0.0.0", port=8000)
+    app.run(debug=True,host="0.0.0.0", port=8500)
