@@ -11,7 +11,7 @@ from langchain import HuggingFaceHub
 
 
 app = Flask(__name__)
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "Your Hugging face Token"
 os.environ['PORT'] = '8500'
 
 def Wrap_Text_preserve_newlines(text, width=200):
